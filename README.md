@@ -7,7 +7,10 @@ I am careful not to use any third party tools and keep the minimum of technical 
 On server & client , install "git for windows": https://gitforwindows.org/
 On server , you need to install docker: https://docs.docker.com/desktop/install/windows-install/
 
-Clone source from github
+Clone source from github on server and on client:
+```bash
+git clone https://github.com/jsaintyv/bridge-remoteport-on-ssl.git
+```
 
 # Install
 On client, execute : 
