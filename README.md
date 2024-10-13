@@ -40,6 +40,11 @@ set TARGETHOST=myboxname
 set TARGETPORT=443
 ```
 
+On client, execute:
+```bash
+client\remoteBridge.bat
+```
+
 
 
 
