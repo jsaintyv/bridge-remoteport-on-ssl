@@ -1,0 +1,11 @@
+version: "2.2"    
+
+services:    
+  sshserver:
+    build: sshserver/
+    ports:
+      - "443:22"
+      - "4000:3389"
+    restart: always
+    volumes:             
+      - ./secret/:/home/remoteuser/secret

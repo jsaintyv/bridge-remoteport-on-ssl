@@ -1,0 +1,3 @@
+
+set TARGETHOST=myboxname
+set TARGETPORT=443
